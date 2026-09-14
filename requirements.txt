@@ -1,0 +1,17 @@
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.5
+python-multipart==0.0.32
+
+gTTS==2.5.4
+
+huggingface_hub==0.36.2
+llama-cpp-python==0.3.35
+
+torch==2.14.0
+transformers==4.44.2
+sentencepiece==0.2.2
+Pillow==12.2.0
+
+python-dotenv==1.2.3
+sarvamai==0.1.33

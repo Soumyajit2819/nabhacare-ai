@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.key
+
+# Data (large, don't commit raw datasets)
+data/*.jsonl
+!data/.gitkeep
+
+# Model weights (large, don't commit)
+models/adapters/*.safetensors
+models/adapters/*.bin
+models/adapters/*/adapter_model.safetensors
+results/
+
+# OS
+.DS_Store
+
+# Checkpoints from Colab/Kaggle if ever synced locally
+checkpoints/
+*.zip
+
+# Large GGUF model
+*.gguf
+
+# Generated files / local runtime
+generated_audio/
+ngrok.log
