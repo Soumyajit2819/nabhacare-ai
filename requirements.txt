@@ -8,10 +8,11 @@ gTTS==2.5.4
 huggingface_hub==0.36.2
 llama-cpp-python==0.3.35
 
-torch==2.14.0
 transformers==4.44.2
 sentencepiece==0.2.2
-Pillow==12.2.0
+
+torch==2.8.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 python-dotenv==1.2.3
 sarvamai==0.1.33
