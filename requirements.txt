@@ -1,3 +1,7 @@
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+
 fastapi==0.141.1
 uvicorn==0.52.4
 pydantic==2.13.5
@@ -12,7 +16,6 @@ transformers==4.44.2
 sentencepiece==0.2.2
 
 torch==2.8.0+cpu
---index-url https://download.pytorch.org/whl/cpu
---extra-index-url https://pypi.org/simple
+
 python-dotenv==1.2.3
 sarvamai==0.1.33
